@@ -19,5 +19,9 @@ langgraph-checkpoint-sqlite==2.0.11
 geopandas==0.14.4
 shapely==2.0.4
 pyproj==3.6.1
-pyogrio==0.9.0      # use as the read/write engine (fewer GDAL headaches than Fiona)
-rtree==1.2.0        # optional: spatial index; skip if you don't use sindex
+pyogrio==0.9.0     
+rtree==1.2.0        
+pymysql==1.1.1
+sqlalchemy==2.0.32
+openai==1.43.0
+tqdm==4.66.4
