@@ -1,0 +1,23 @@
+fastapi==0.115.4
+uvicorn[standard]==0.31.0
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-multipart==0.0.9
+python-dateutil==2.9.0.post0
+httpx==0.27.2
+
+# LangChain stack
+langchain==0.2.16
+langchain-openai==0.1.25
+openai==1.40.6
+
+# LangGraph + sqlite checkpoint
+langgraph==0.2.34
+aiosqlite==0.20.0
+
+langgraph-checkpoint-sqlite==2.0.11
+geopandas==0.14.4
+shapely==2.0.4
+pyproj==3.6.1
+pyogrio==0.9.0      # use as the read/write engine (fewer GDAL headaches than Fiona)
+rtree==1.2.0        # optional: spatial index; skip if you don't use sindex
